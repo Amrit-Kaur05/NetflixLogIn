@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Who's Watching?"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,31 +23,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.060000002" />
 
-    <TextView
-        android:id="@+id/titleText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Who's Watching?"
-        android:textAlignment="center"
-        android:textColor="#E9DFDF"
-        android:textColorLink="#EDE6E6"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.060000002" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
         android:text="Edit"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="357dp"
+        app:layout_constraintStart_toEndOf="@+id/titleText"
         tools:layout_editor_absoluteY="42dp" />
 
     <ImageView
