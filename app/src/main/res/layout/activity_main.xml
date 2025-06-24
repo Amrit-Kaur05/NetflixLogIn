@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who's Watching?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <TextView
+        android:id="@+id/titleText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who's Watching?"
+        android:textAlignment="center"
+        android:textColor="#E9DFDF"
+        android:textColorLink="#EDE6E6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="357dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <ImageView
+        android:id="@+id/puppyImg"
+        android:layout_width="107dp"
+        android:layout_height="108dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/birdImg"
+        app:layout_constraintEnd_toStartOf="@+id/kittyImg"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/kittyImg"
+        android:layout_width="107dp"
+        android:layout_height="109dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/fishImg"
+        tools:layout_editor_absoluteX="228dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/birdImg"
+        android:layout_width="107dp"
+        android:layout_height="109dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/fishImg"
+        tools:layout_editor_absoluteY="348dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/fishImg"
+        android:layout_width="107dp"
+        android:layout_height="109dp"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="348dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/kidsImg"
+        android:layout_width="107dp"
+        android:layout_height="109dp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/puppyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Puppy"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/puppyImg"
+        tools:layout_editor_absoluteX="101dp" />
+
+    <TextView
+        android:id="@+id/kittyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="8dp"
+        android:text="Kitty"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/puppyText"
+        app:layout_constraintTop_toBottomOf="@+id/kittyImg" />
+
+    <TextView
+        android:id="@+id/birdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Birdy"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/birdImg"
+        tools:layout_editor_absoluteX="108dp" />
+
+    <TextView
+        android:id="@+id/fishText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Goldy"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/fishImg"
+        tools:layout_editor_absoluteX="267dp" />
+
+    <TextView
+        android:id="@+id/kidsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Kids"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/kidsImg"
+        tools:layout_editor_absoluteX="192dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
