@@ -48,14 +48,14 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95"
+        app:layout_constraintVertical_bias="0.945"
         tools:srcCompat="@drawable/puppy" />
 
     <ImageView
         android:id="@+id/kittyImg"
         android:layout_width="107dp"
         android:layout_height="109dp"
-        android:layout_marginEnd="84dp"
+        android:layout_marginEnd="64dp"
         android:layout_marginBottom="76dp"
         app:layout_constraintBottom_toTopOf="@+id/fishImg"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +79,7 @@
         android:id="@+id/fishImg"
         android:layout_width="107dp"
         android:layout_height="109dp"
-        android:layout_marginEnd="72dp"
+        android:layout_marginEnd="64dp"
         android:layout_marginBottom="280dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,71 +93,75 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleText"
-        app:layout_constraintVertical_bias="0.81"
+        app:layout_constraintVertical_bias="0.854"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/puppyText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
         android:layout_marginTop="12dp"
         android:text="Puppy"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/birdImg"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/birdText"
+        app:layout_constraintEnd_toStartOf="@+id/kittyText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/puppyImg"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintVertical_bias="0.053" />
 
     <TextView
         android:id="@+id/kittyText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="96dp"
         android:text="Kitty"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/fishImg"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/fishImg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.008"
-        app:layout_constraintStart_toEndOf="@+id/puppyText"
         app:layout_constraintTop_toBottomOf="@+id/kittyImg"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintVertical_bias="0.408" />
 
     <TextView
         android:id="@+id/birdText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="112dp"
         android:text="Birdy"
         android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/birdImg" />
+        app:layout_constraintTop_toBottomOf="@+id/birdImg"
+        app:layout_constraintVertical_bias="0.083" />
 
     <TextView
         android:id="@+id/fishText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="20dp"
         android:text="Goldy"
         android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toEndOf="@+id/birdText"
         app:layout_constraintTop_toBottomOf="@+id/fishImg" />
 
     <TextView
         android:id="@+id/kidsText"
-        android:layout_width="28dp"
-        android:layout_height="19dp"
+        android:layout_width="69dp"
+        android:layout_height="34dp"
         android:layout_marginTop="8dp"
         android:text="Kids"
+        android:textAlignment="center"
         android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kidsImg"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintVertical_bias="0.105" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
