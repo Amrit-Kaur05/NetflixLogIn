@@ -44,9 +44,11 @@ Note: I chose the far left image to replicate for this app.
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/ICnUMNx.mp4' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
+Link to Demo: https://imgur.com/a/Vnrmc4s
+
+GIF created with Imgur.
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -56,11 +58,11 @@ GIF created with **your chosen GIF tool**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+This is was a fun project that allowed me to learn more about layouts and constraints! I would love to learn more about adding more personalization in future projects!
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright 2025 Amrit Kaur
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
